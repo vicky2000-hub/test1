@@ -1,3 +1,11 @@
+# Download data from Github
+! git clone https://github.com/NetsecExplained/Machine-Learning-for-Security-Analysts.git
+  
+# Install dependencies
+! pip install nltk sklearn pandas matplotlib seaborn
+data_dir = "Machine-Learning-for-Security-Analysts/Malicious URLs.csv"
+
+#_____________________________________________________________________________________________________________________________________________________#
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
